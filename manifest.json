@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Location testing",
+  "version": "1.0",
+  "description": "A Chrome extension to request location access",
+  "permissions": [
+    "geolocation"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
